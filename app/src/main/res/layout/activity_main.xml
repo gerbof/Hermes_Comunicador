@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hermes.laboratorio.hermesbofsivori.MainActivity"
+    android:background="#000000">
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo_cedica"
+        android:layout_alignTop="@+id/list"
+        android:layout_alignParentStart="true"
+        android:alpha="1" />
+
+    <ListView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:id="@+id/list"
+        android:choiceMode="singleChoice"
+        android:minHeight="10dp"
+        android:minWidth="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:textAlignment="textStart"
+        android:visibility="visible"
+        android:textFilterEnabled="false"
+        android:background="#bdcecece"
+        android:clickable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ALUMN@S"
+        android:id="@+id/textView"
+        android:textColor="#d4cfcf"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/list" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="+ Nuev@ Alumn@"
+        android:id="@+id/link"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/list"
+        android:paddingBottom="10dp" />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Hermes</string>
+    <string name="title_activity_tabs"></string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_editable">Modo Edición</string>
+    <string name="action_alumn">Modo Alumn@</string>
+    <string name="section_format"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+
+    <string name="add">Agregar</string>
+    <string name="subtract">Restar</string>
+    <string name="remove">Quitar</string>
+    <string name="title_activity_editable"></string>
+
+    <string-array name="emociones_image_ids">
+        <item>@drawable/emociones_asustada</item>
+        <item>@drawable/emociones_asustado</item>
+        <item>@drawable/emociones_cansada</item>
+        <item>@drawable/emociones_cansado</item>
+        <item>@drawable/emociones_contenta</item>
+        <item>@drawable/emociones_contento</item>
+        <item>@drawable/emociones_dolorida</item>
+        <item>@drawable/emociones_dolorido</item>
+        <item>@drawable/emociones_enojada</item>
+        <item>@drawable/emociones_enojado</item>
+        <item>@drawable/emociones_soreprendida</item>
+        <item>@drawable/emociones_sorprendido</item>
+        <item>@drawable/emociones_triste_f</item>
+        <item>@drawable/emociones_triste_m</item>
+    </string-array>
+
+    <string-array name="establo_image_ids">
+        <item>@drawable/establo_caballo_b</item>
+        <item>@drawable/establo_caballo_m</item>
+        <item>@drawable/establo_caballo_n</item>
+        <item>@drawable/establo_cepillo</item>
+        <item>@drawable/establo_escarbavasos</item>
+        <item>@drawable/establo_limpieza</item>
+        <item>@drawable/establo_matra</item>
+        <item>@drawable/establo_montura</item>
+        <item>@drawable/establo_pasto</item>
+        <item>@drawable/establo_rasqueta_blanda</item>
+        <item>@drawable/establo_rasqueta_dura</item>
+        <item>@drawable/establo_zanahoria</item>
+    </string-array>
+
+    <string-array name="necesidades_image_ids">
+        <item>@drawable/necesidades_banio</item>
+        <item>@drawable/necesidades_sed_f</item>
+        <item>@drawable/necesidades_sed_m</item>
+    </string-array>
+
+    <string-array name="pista_image_ids">
+        <item>@drawable/pista_aro</item>
+        <item>@drawable/pista_broches</item>
+        <item>@drawable/pista_burbujas</item>
+        <item>@drawable/pista_casco</item>
+        <item>@drawable/pista_chapas</item>
+        <item>@drawable/pista_cubos</item>
+        <item>@drawable/pista_letras</item>
+        <item>@drawable/pista_maracas</item>
+        <item>@drawable/pista_palos</item>
+        <item>@drawable/pista_pato</item>
+        <item>@drawable/pista_pelota</item>
+        <item>@drawable/pista_riendas</item>
+        <item>@drawable/pista_tarima</item>
+    </string-array>
+
+    <string-array name="yes_no">
+        <item>@drawable/si</item>
+        <item>@drawable/no</item>
+    </string-array>
+
+    <string-array name="example_alumn">
+        <item>@drawable/establo_pasto</item>
+        <item>@drawable/emociones_triste_m</item>
+        <item>@drawable/emociones_triste_f</item>
+        <item>@drawable/establo_rasqueta_dura</item>
+        <item>@drawable/pista_cubos</item>
+        <item>@drawable/necesidades_banio</item>
+        <item>@drawable/pista_pato</item>
+        <item>@drawable/establo_caballo_m</item>
+        <item>@drawable/establo_caballo_n</item>
+        <item>@drawable/establo_caballo_b</item>
+        <item>@drawable/pista_pelota</item>
+        <item>@drawable/pista_casco</item>
+        <item>@drawable/pista_tarima</item>
+        <item>@drawable/establo_montura</item>
+        <item>@drawable/establo_matra</item>
+        <item>@drawable/necesidades_sed_m</item>
+        <item>@drawable/necesidades_sed_f</item>
+        <item>@drawable/emociones_dolorido</item>
+        <item>@drawable/emociones_dolorida</item>
+    </string-array>
+</resources>

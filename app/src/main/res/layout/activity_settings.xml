@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hermes.laboratorio.hermesbofsivori.SettingsActivity"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Alumn@"
+                android:id="@+id/textView2"
+                android:textColor="#ffffff"
+                android:textSize="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:singleLine="false" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Nombre"
+                    android:id="@+id/textView3"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/nombre"
+                    android:layout_column="0"
+                    android:textColor="#ffffff" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Apellido"
+                    android:id="@+id/textView5"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/apellido"
+                    android:layout_column="0"
+                    android:textColor="#ffffff" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Sexo"
+                    android:id="@+id/textView7"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/sexo"
+                    android:layout_column="0"
+                    android:textColor="#ffffff" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Tamaño de pictogramas"
+                    android:id="@+id/textView9"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="pictograma"
+                    android:id="@+id/textView10"
+                    android:layout_column="0"
+                    android:textColor="#ffffff" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Habilitar Categorías"
+                    android:id="@+id/textView11"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pista"
+                    android:id="@+id/checkBox"
+                    android:layout_column="1"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:textColor="#ffffff" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Establo"
+                    android:id="@+id/checkBox2"
+                    android:layout_column="3"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="40dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Necesidades"
+                    android:id="@+id/checkBox3"
+                    android:layout_column="5"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="40dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Emociones"
+                    android:id="@+id/checkBox4"
+                    android:layout_column="7"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="40dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Eliminar Alumn@"
+                    android:id="@+id/eliminar"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Configuración general"
+                    android:id="@+id/textView13"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_column="0"
+                    android:layout_marginTop="20dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Dirección IP del monitor"
+                    android:id="@+id/textView14"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/ip"
+                    android:layout_column="0"
+                    android:textColor="#ffffff" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Puerto del monitor"
+                    android:id="@+id/textView16"
+                    android:layout_column="0"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/puerto"
+                    android:layout_column="0"
+                    android:textColor="#ffffff" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

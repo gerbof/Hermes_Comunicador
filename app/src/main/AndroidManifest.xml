@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hermes.laboratorio.hermesbofsivori">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/logo_cedica"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TabsActivity"
+            android:label="@string/title_activity_tabs"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NuevoAlumnoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EditableActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_editable"></activity>
+    </application>
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+</manifest>
